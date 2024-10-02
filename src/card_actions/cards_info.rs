@@ -89,7 +89,7 @@ pub struct CardsInfoField {
 }
 
 impl AnkiRequest for CardsInfoRequest {
-    type Response = CardsInfoResponse;
+    type Response = Vec<CardsInfoResponse>;
 
     const ACTION: &'static str = "cardsInfo";
     const VERSION: u8 = 6;
