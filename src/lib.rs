@@ -219,7 +219,7 @@ impl<'a, Request: AnkiRequest + Send + 'a> AnkiRequestable<Request> for AnkiClie
                 .json::<AnkiConnectResponse<Request::Response>>()
                 .await
                 .map_err(Error::Reqwest)
-        }?;
+        }.unwrap();
 
         if let Some(error) = response.error {
             Err(Error::Anki(error))
