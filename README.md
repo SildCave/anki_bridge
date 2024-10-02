@@ -1,4 +1,4 @@
-# FORK OF [AnkiBridge](https://gitlab.com/kerkmann/anki_bridge) WITH FIXES FOR CardsInfoRequest
+# FORK OF [AnkiBridge](https://gitlab.com/kerkmann/anki_bridge) WITH FIXES FOR [CardsInfoRequest](https://docs.rs/anki_bridge/0.8.0/anki_bridge/card_actions/cards_info/struct.CardsInfoRequest.html)
 # AnkiBridge
 
 AnkiBridge is a Rust library that serves as a bridge between your Rust code and the Anki application, leveraging the [AnkiConnect](https://ankiweb.net/shared/info/2055492159) add-on to establish an HTTP connection. This library enables seamless transmission of data and facilitates interaction with Anki through Rust.
